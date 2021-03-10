@@ -81,14 +81,42 @@ Flops/Total logic = 1613/13197 = 12.22%
 
 # DAY-2 : Chip planning strategies and introduction to Foundry Library Cells
 
+The day two responsibilities are to learn about
 
+Utilization factor and Aspect Ratio
+Concept of preplaced cells
+De coupling capacitors
+Power planning
+Pin placement and logical cell placement blockage
+Pin arrangement UI and automatic grouping of vectors
+Tips on pin placement and floorplanning chip
+Floorplanning labs
+Netlist binding and initial place design
+Optimize placement using estimated wire length and capacitance
+Final placement optimization
+Need for libraries and characterization
+Inputs for cell dessign flow
+Circuit design step
+Layout design step
+Typical characterization flow
+Timing threshold definitions
+Propogation delay and transition time
 
+**Lab :**
 
+![Screen Shot 2021-03-04 at 11 12 39 AM](https://user-images.githubusercontent.com/79971687/110619361-b9be7180-81bd-11eb-8a8f-0af8cdf4769f.png)
 
+The below figures are the pinplacement procedure that we follow.As the qflow is opened we will synthesis the design and in the placement settings we should click on the arrange pins option and there reset,clk pins must be grouped by newgroup by naming it.After that the iterations of standard cell and pins are taken place.
 
+![Screen Shot 2021-03-04 at 5 19 01 PM](https://user-images.githubusercontent.com/79971687/110620279-d8713800-81be-11eb-9b50-58f2de7c3da9.png)
 
+These are iterations that are happened in the placement stage based on some algorithms and nearest pin specified in the netlist.
 
+![Screen Shot 2021-03-04 at 5 22 23 PM](https://user-images.githubusercontent.com/79971687/110620503-15d5c580-81bf-11eb-8c9a-e8b69b505c85.png)
 
+The below images explains the placement have iterations to make the cells closer to get the best path.
 
+![Screen Shot 2021-03-04 at 5 23 26 PM](https://user-images.githubusercontent.com/79971687/110620657-461d6400-81bf-11eb-9076-be41789858e4.png)
 
+![Screen Shot 2021-03-04 at 6 00 49 PM](https://user-images.githubusercontent.com/79971687/110621028-c5ab3300-81bf-11eb-884f-791627d9cc68.png)
 
