@@ -43,11 +43,48 @@ The below image explains about the pads, die, core
 2.RV32 has 32 bit instructions
 
 Suffixes specify available extensions -I : basic integer instruction set; -M : hardware mulptiplier/divider; -C : compressed instruction set (16 - bit)
-PICORV32 OVERVIEW:
+
+**PICORV32 OVERVIEW:**
 
 key features: 1. Small size 2.High Clock Speed 3.Native Memory Interface 4.Optional IRQ Support
 
-**PICORV32 OVERVIEW:
+**Lab**
 
-key features: 1. small size 2.high clock speed 3.native memory interface 4.optional IRQ support
+Yosys is a command to open the yosys terminal.
+
+![Yosys](https://user-images.githubusercontent.com/79971687/110567365-64f80800-8177-11eb-879a-befa26cd7fbc.jpg)
+
+The command ./vsdflow spi_slave_design_details.csv is to initialize the design & execute like the following image
+
+![Screen Shot 2021-03-04 at 11 08 20 AM](https://user-images.githubusercontent.com/79971687/110568267-bead0200-8178-11eb-91ba-1739c24cfea0.png)
+
+
+qflow is a command to display the spi_slave layout view
+
+![Screen Shot 2021-03-04 at 11 12 39 AM](https://user-images.githubusercontent.com/79971687/110568586-38dd8680-8179-11eb-908d-62f40d3a1ead.png)
+
+The below is the tkcon window which is used to excute the commands in the layout view. Ex:- box is a command to excute the length, width & area of the layout 
+
+![Screen Shot 2021-03-04 at 11 41 47 AM](https://user-images.githubusercontent.com/79971687/110569015-e94b8a80-8179-11eb-9302-498ada8f19f3.png)
+
+To know the %ratio of flipflop/total logic
+
+When we run the synthesis operation in qflow manager 
+
+![Screen Shot 2021-03-04 at 11 33 54 AM](https://user-images.githubusercontent.com/79971687/110570560-18fb9200-817c-11eb-908e-7e62f8309930.png)
+
+Ratio of flops to logic cells = Total number of flops / Total number of cells from the below image
+
+![logic](https://user-images.githubusercontent.com/79971687/110570658-49433080-817c-11eb-938d-b370e4416666.jpg)
+
+Flops/Total logic = 1613/13197 = 12.22%
+
+#Day -2: Chip Planning Strategies and Introduction to Foundry Library Cells <br/>
+
+
+
+
+
+
+
 
