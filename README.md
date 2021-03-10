@@ -33,3 +33,5 @@ Steps to perform labs on platform<br/>
 
 
 The below image explains about the pads, die, core 
+
+![die, pads, core](https://user-images.githubusercontent.com/79971687/110565346-5825e500-8174-11eb-9822-9bbb336f133c.jpg)
