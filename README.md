@@ -79,7 +79,9 @@ Ratio of flops to logic cells = Total number of flops / Total number of cells fr
 
 Flops/Total logic = 1613/13197 = 12.22%
 
-#DAY-2 : Chip planning strategies and introduction to Foundry Library Cells
+# DAY-2 : Chip planning strategies and introduction to Foundry Library Cells
+
+
 
 
 
